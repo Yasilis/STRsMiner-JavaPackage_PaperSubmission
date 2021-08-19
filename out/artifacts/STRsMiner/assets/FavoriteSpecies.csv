@@ -1,0 +1,85 @@
+id,checked_1,checked_2,common_name,display_name,last_update_time,name,type
+1,0,0,red-bellied piranha,Red-bellied piranha,11/19/2020,pygocentrus_nattereri,fish
+2,0,0,central bearded dragon,Central bearded dragon,11/19/2020,pogona_vitticeps,
+5,0,0,Bornean orangutan,Orangutan,11/19/2020,pongo_abelii,mamel
+6,0,0,guppy,Guppy,11/19/2020,poecilia_reticulata,fish
+7,0,0,human,Human,11/19/2020,homo_sapiens,mamel
+9,0,0,Golden Hamster,Golden Hamster,11/19/2020,mesocricetus_auratus,mamel
+11,0,0,zebra finch,Zebra finch,11/19/2020,taeniopygia_guttata,fish
+14,0,0,channel catfish,Channel catfish,11/19/2020,ictalurus_punctatus,fish
+17,0,0,platypus,Platypus,11/19/2020,ornithorhynchus_anatinus,mamel
+18,0,0,giant panda,Panda,11/19/2020,ailuropoda_melanoleuca,mamel
+19,0,0,Japanese quail,Japanese quail,11/19/2020,coturnix_japonica,bird
+21,0,0,Inshore hagfish,Hagfish,11/19/2020,eptatretus_burgeri,fish
+23,0,0,alpaca,Alpaca,11/19/2020,vicugna_pacos,mamel
+27,0,0,fugu,Fugu,11/19/2020,takifugu_rubripes,fish
+31,0,0,red fox,Red fox,11/19/2020,vulpes_vulpes,mamel
+41,0,0,Hoffmann's two-fingered sloth,Sloth,11/19/2020,choloepus_hoffmanni,mamel
+47,0,0,sea lamprey,Lamprey,11/19/2020,petromyzon_marinus,fish
+51,0,0,Australian saltwater crocodile,Australian saltwater crocodile,11/19/2020,crocodylus_porosus,
+56,0,0,Domestic ferret,Ferret,11/19/2020,mustela_putorius_furo,mamel
+59,0,0,nine-banded armadillo,Armadillo,11/19/2020,dasypus_novemcinctus,mamel
+61,0,0,emu,Emu,11/19/2020,dromaius_novaehollandiae,bird
+70,0,0,African savanna elephant,Elephant,11/19/2020,loxodonta_africana,mamel
+71,0,0,Degu,Degu,11/19/2020,octodon_degus,mamel
+75,0,0,Agassiz's desert tortoise,Agassiz's desert tortoise,11/19/2020,gopherus_agassizii,tortoise
+77,0,0,large flying fox,Megabat,11/19/2020,pteropus_vampyrus,mamel
+89,0,0,Western painted turtle,Painted turtle,11/19/2020,chrysemys_picta_bellii,tortoise
+91,0,0,Budgie,Budgerigar,11/19/2020,melopsittacus_undulatus,bird
+94,0,0,horse,Horse,11/19/2020,equus_caballus,mamel
+95,0,0,Atlantic cod,Cod,11/19/2020,gadus_morhua,fish
+96,0,0,mouse,Mouse,11/19/2020,mus_musculus,mamel
+106,0,0,bonobo,Bonobo,11/19/2020,pan_paniscus,mamel
+107,0,0,domestic guinea pig,Guinea Pig,11/19/2020,cavia_porcellus,mamel
+112,0,0,western European hedgehog,Hedgehog,11/19/2020,erinaceus_europaeus,mamel
+113,0,0,northern tree shrew,Tree Shrew,11/19/2020,tupaia_belangeri,mamel
+121,0,0,Olive baboon,Olive baboon,11/19/2020,papio_anubis,mamel
+123,0,0,wild yak,Wild yak,11/19/2020,bos_mutus,mamel
+126,0,0,Northern white-cheeked gibbon,Gibbon,11/19/2020,nomascus_leucogenys,mamel
+128,0,0,live sharksucker,Live sharksucker,11/19/2020,echeneis_naucrates,fish
+134,0,0,vole,Prairie vole,11/19/2020,microtus_ochrogaster,mamel
+137,0,0,tammar wallaby,Wallaby,11/19/2020,notamacropus_eugenii,mamel
+150,0,0,Norway rat,Rat,11/19/2020,rattus_norvegicus,mamel
+163,0,0,white-tufted-ear marmoset,Marmoset,11/19/2020,callithrix_jacchus,mamel
+165,0,0,green anole,Anole lizard,11/19/2020,anolis_carolinensis,lizard
+173,0,0,Philippine tarsier,Tarsier,11/19/2020,carlito_syrichta,mamel
+175,0,0,Shrew mouse,Shrew mouse,11/19/2020,mus_pahari,mamel
+180,0,0,tropical clawed frog,Tropical clawed frog,11/19/2020,xenopus_tropicalis,frog
+182,0,0,gray mouse lemur,Mouse Lemur,11/19/2020,microcebus_murinus,mamel
+185,0,0,chicken,Chicken,11/19/2020,gallus_gallus,bird
+186,0,0,small-eared galago,Bushbaby,11/19/2020,otolemur_garnettii,mamel
+190,0,0,Atlantic salmon,Atlantic salmon,11/19/2020,salmo_salar,fish
+191,0,0,Arabian camel,Arabian camel,11/19/2020,camelus_dromedarius,mamel
+193,0,0,little brown bat,Microbat,11/19/2020,myotis_lucifugus,mamel
+195,0,0,thirteen-lined ground squirrel,Squirrel,11/19/2020,ictidomys_tridecemlineatus,mamel
+196,0,0,Polar bear,Polar bear,11/19/2020,ursus_maritimus,mamel
+200,0,0,bottlenosed dolphin,Dolphin,11/19/2020,tursiops_truncatus,fish
+201,0,0,Macaque,Macaque,11/19/2020,macaca_mulatta,mamel
+202,0,0,Western Lowland Gorilla,Gorilla,11/19/2020,gorilla_gorilla,mamel
+205,0,0,koala,Koala,11/19/2020,phascolarctos_cinereus,mamel
+207,0,0,leopard,Leopard,11/19/2020,panthera_pardus,mamel
+222,0,0,pig,Pig,11/19/2020,sus_scrofa,mamel
+227,0,0,fruit fly,Drosophila melanogaster,11/19/2020,drosophila_melanogaster,drosophila
+233,0,0,Goat,Goat,11/19/2020,capra_hircus,mamel
+238,0,0,tuatara,Tuatara,11/19/2020,sphenodon_punctatus,punctatus
+247,0,0,Argentine black and white tegu,Argentine black and white tegu,11/19/2020,salvator_merianae,tigo
+249,0,0,Kakapo,Kakapo,11/19/2020,strigops_habroptila,bird
+250,0,0,cattle,Cow,11/19/2020,bos_taurus,mamel
+253,0,0,domestic turkey,Turkey,11/19/2020,meleagris_gallopavo,bird
+254,0,0,small Madagascar hedgehog,Lesser hedgehog tenrec,11/19/2020,echinops_telfairi,terec
+255,0,0,American pika,Pika,11/19/2020,ochotona_princeps,mamel
+256,0,0,donkey,Donkey,11/19/2020,equus_asinus_asinus,mamel
+257,0,0,European shrew,Shrew,11/19/2020,sorex_araneus,mamel
+261,0,0,gray short-tailed opossum,Opossum,11/19/2020,monodelphis_domestica,mamel
+263,0,0,dog,Dog,11/19/2020,canis_lupus_familiaris,mamel
+264,0,0,domestic cat,Cat,11/19/2020,felis_catus,mamel
+265,0,0,Ord's kangaroo rat,Kangaroo rat,11/19/2020,dipodomys_ordii,mamel
+272,0,0,common mallard,Duck,11/19/2020,anas_platyrhynchos_platyrhynchos,bird
+276,0,0,mallard,Mallard,11/19/2020,anas_platyrhynchos,bird
+277,0,0,chimpanzee,Chimpanzee,11/19/2020,pan_troglodytes,mamel
+280,0,0,African green monkey,Vervet-AGM,11/19/2020,chlorocebus_sabaeus,mamel
+293,0,0,Tiger,Tiger,11/19/2020,panthera_tigris_altaica,mamel
+298,0,0,Tasmanian devil,Tasmanian devil,11/19/2020,sarcophilus_harrisii,mamel
+299,0,0,rabbit,Rabbit,11/19/2020,oryctolagus_cuniculus,mamel
+302,0,0,dingo,Dingo,11/19/2020,canis_lupus_dingo,mamel
+305,0,0,common canary,Common canary,11/19/2020,serinus_canaria,bird

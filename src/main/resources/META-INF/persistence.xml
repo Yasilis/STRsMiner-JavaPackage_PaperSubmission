@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+  <persistence-unit name="DB-3">
+
+      <class>com.alimaddi.model.Species</class>
+      <class>com.alimaddi.model.Gene</class>
+      <class>com.alimaddi.model.Transcript</class>
+      <class>com.alimaddi.model.STR</class>
+
+      <properties>
+          <!-- Database configuration -->
+          <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+
+          <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/STRsDataBase3"/>
+          <property name="javax.persistence.jdbc.user" value="dbuser"/>
+          <property name="javax.persistence.jdbc.password" value="dbuserPass"/>
+
+          <!-- Schema configuration -->
+          <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect" />
+          <property name="hibernate.show_sql" value="false"/>
+          <property name="hibernate.hbm2ddl.auto" value="update" />
+          <property name="javax.persistence.schema-generation.database.action" value="update"/>
+
+      </properties>
+  </persistence-unit>
+</persistence>

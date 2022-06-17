@@ -49,7 +49,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#Project instructions">Project instructions</a></li>
+        <li><a href="#Project Instructions">Project Instructions</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -147,7 +147,7 @@ the prebuild .jar file is not implemented.
 After making .jar file, you can enjoy package by following instructions.
 
 
-### Project instructions
+### Project Instructions
 
 Below is an example of how you can run package. TRsMiner/STRsMiner is a package consist of multiple tools and methods.
 You can run each of them on your own as long as you follow the dependencies. 
@@ -184,15 +184,15 @@ For example one input file
   10
   80
   true
-  ./report/2021_01_04__02_17_25__@10,15@__MultiThread_GeneBased_simple_finger_Print_file.csv
-  ./report/2021_01_04__02_17_24__@-1,-1@__MultiThread_GeneBased_simple_finger_Print_file.csv
+  ./report/@10,15@__MultiThread_GeneBased_simple_finger_Print_file.csv
+  ./report/@-1,-1@__MultiThread_GeneBased_simple_finger_Print_file.csv
   ```
 
 For example one input file
 * Example 2 of input file:
   ```sh
   18
-  ./assets/2020_05_14__00_40_07__@16,120@__Bio_simple_finger_Print_file.csv
+  ./assets/@16,120@__Bio_simple_finger_Print_file.csv
   ```
 
 For example one input file
@@ -201,25 +201,99 @@ For example one input file
   3
   40
   ```
-  
 
+According to the above examples, the most important package commands will be as follows:
 
-
-
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+0. Case 0: for calling help (Not yet fully developed!)
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   0
    ```
-3. Install NPM packages
+1. Case 1: for printing all species in the DB
    ```sh
-   npm install
+   1
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+2. Case 2: for updating species
+   ```sh
+   2
    ```
+3. Case 3: for updating genes.  
+   ```sh
+   3
+   40
+   ```
+   1. second line is the number of threads which we want to use by package
+
+   
+4. Case 4: for updating genes belong to species id x.
+   ```sh
+   4
+   7
+   ```
+   1. second line is an ID or index(x is an index of species is DB)
+
+
+5. Case 5: for updating transcript.
+
+   ```sh
+   5
+   120
+   60
+   ```
+   1. second line is the length of Upstream sequence
+   2. third line is the number of threads which we want to use by package
+
+
+6. Case 8: for updating tandem repeats
+   ```sh
+   8
+   70
+   ```
+    1. second line is the number of threads which we want to use by package
+
+7. Case 17: for making a fingerprint file (one of the files for next analyzing)
+   ```sh
+   17
+   ```
+8. Case 67: for making a fingerprint file based on multi-threading
+and without gene based grouping(one of the files for next analyzing)
+   ```sh
+   67
+   84
+   ```
+   1. second line is the number of threads which we want to use by package
+   
+9. Case 68: for making a fingerprint file based on multi-threading
+and with gene based grouping(one of the files for next analyzing)
+   ```sh
+   68
+   80
+   ```
+   1. second line is the number of threads which we want to use by package
+
+
+10. Case 19: for making a fingerprint file (one of the files for next analyzing)
+    ```sh
+    19
+    7
+    10
+    80
+    true
+    ./report/@10,15@__MultiThread_GeneBased_simple_finger_Print_file.csv
+    ./report/@-1,-1@__MultiThread_GeneBased_simple_finger_Print_file.csv
+    ```
+    1. second line is an ID or index(7 is index of human in our database )
+    2. third line is the fold number of repeat process
+    3. fourth line is the number of threads which we want to use by package
+    4. fifth line is a switch for running analyzer gene based or not
+    5. sixth line is the address of the fingerprint file for a specific category
+    6. seventh line is the address of the fingerprint file for all specific categories 
+
+
+
+
+11. and so on ...
+   
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

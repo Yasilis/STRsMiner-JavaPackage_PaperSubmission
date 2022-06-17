@@ -4,9 +4,6 @@ Using the enhanced query form on the Biomart Ensembl tool along with the RESTful
 
 
 
-
-# STRsMiner/TRsMiner
-
 This project was originally developed to identify shor tandem repeats (STRs). But now, after a few years, all kinks of tandem repeats (TRs) can b identified.
 So, we decided to change the name from STRsMiner to TRsMiner.
 This project is developed in java and R language in the Intellij IDEA IDE.

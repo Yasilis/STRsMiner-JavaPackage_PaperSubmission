@@ -91,29 +91,41 @@ This section should list any major frameworks/libraries used to build your proje
 * [R](https://cran.r-project.org/)
 * [MySQL](https://www.mysql.com/)
 * [XAMPP](https://www.apachefriends.org/)(opptional for MySQL)
+* [IDEA IDE](https://www.jetbrains.com/idea/)(opptional for development)
 </p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-
 ## Getting Started
-
 This is an example of how you may give instructions on setting up the project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 In the first step, you have to download clone of the project in your local environment.
-You can do this by following command:
+You can do this by following command in the appropriate command line:
 
 * clone the project
   ```sh
   git clone git@github.com:Yasilis/STRsMiner-JavaPackage_PaperSubmission.git
   ```
 
-As you know, there are other ways to download source code
+As you know, there are other ways to download source code. For example, you can use the Github user interface!
+
+After downloading source codes, you need open the project by an IDE (I recommend you IntelliJ IDEA) and build it.
+For building project you have to use the maven build script which has been attached in the project hierarchy.
+The Hibernate ORM is also used in the project. So, you need config "hibernate.cfg.xml" file.
+The default driver is "com.mysql.cj.jdbc.Driver" which it belongs to the MySQL database.
+<br/>
+<br/>
+For changing default database you need to change this line of codes with appropriate driver in the "hibernate.cfg.xml" file:
+* clone the project
+  ```sh
+  <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+  ```
+
 
 ### Installation
 
@@ -135,7 +147,6 @@ rely on any external dependencies or services._
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->

@@ -17,7 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission)">
+  <a href="https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,9 +30,9 @@
     <br />
     <br />
     <br />
-    <!-- <br />
   </p>
 </div>
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -62,7 +62,6 @@
 
 
 <!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
 <p align="left">
@@ -81,15 +80,17 @@
 </p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
 ### Built With
 <p align="left">
 This section should list any major frameworks/libraries used to build your project. Here are a few examples.
 
-* [git]()
-* [java]()
-* [R]()
-* [MySQL]()
-* 
+* [git](https://git-scm.com/)
+* [java](https://www.java.com/en/)
+* [R](https://cran.r-project.org/)
+* [MySQL](https://www.mysql.com/)
+* [XAMPP](https://www.apachefriends.org/)(opptional for MySQL)
 </p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 

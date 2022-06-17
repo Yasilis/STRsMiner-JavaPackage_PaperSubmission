@@ -141,13 +141,71 @@ There are multiple command in the project for creating tables and filling them.
 <br/>
 Also, you can also use our already prepared database which is accessible in the “figshare” repository, with the identifier “10. 0 /m .figshare.15 052 ” 
 
-After connecting database to the project you can enjoy package by following instructions.
+After connecting database to the project, you have to build the project and export .jar file.
+Another way is to use IDE directly. Because of the local setting that is necessary for running the package, 
+the prebuild .jar file is not implemented.
+After making .jar file, you can enjoy package by following instructions.
 
 
 ### Project instructions
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't
-rely on any external dependencies or services._
+Below is an example of how you can run package. TRsMiner/STRsMiner is a package consist of multiple tools and methods.
+You can run each of them on your own as long as you follow the dependencies. 
+In other words, the required data at each method or tools must be provided to the program either through the database or through other methods.
+
+In general for running the package and getting appropriate output, you need to run this general command in the console or command line;
+
+* General command
+  ```sh
+  nohup java -jar TRsMiner1.0.0.3.jar input
+  ```
+
+In the above code, we have assumed that the name of .jar file is "TRsMiner1.0.0.3.jar".
+the "nohup" keyword is used when we want to have a long runtime run. (So, for short runtime run you skip it)
+In this case, the final output will be placed in "nohup.out" file beside of the "TRsMiner1.0.0.3.jar" file. 
+Also in this command, the "input" file is a text file that contains input information and executable commands for running the package.
+
+The structure of "input" file is as follows:
+* Input file:
+  ```sh
+  X 
+  other instruction
+  ```
+
+In this format "X" is the number of command in the source code of project, 
+and other next lines are the inputs for that command. 
+In fact, in the main class of the project, we have a switch-case function that executes it runs different tools with different identifiers! 
+
+For example one input file
+* Example 1 of input file:
+  ```sh
+  19
+  7
+  10
+  80
+  true
+  ./report/2021_01_04__02_17_25__@10,15@__MultiThread_GeneBased_simple_finger_Print_file.csv
+  ./report/2021_01_04__02_17_24__@-1,-1@__MultiThread_GeneBased_simple_finger_Print_file.csv
+  ```
+
+For example one input file
+* Example 2 of input file:
+  ```sh
+  18
+  ./assets/2020_05_14__00_40_07__@16,120@__Bio_simple_finger_Print_file.csv
+  ```
+
+For example one input file
+* Example 2 of input file:
+  ```sh
+  3
+  40
+  ```
+  
+
+
+
+
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo

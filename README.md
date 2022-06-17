@@ -1,14 +1,23 @@
-<div id="top""></div>
+<div id="top"></div>
 
-[//]: # ([![Contributors][contributors-shield]][contributors-url])
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-[//]: # ([![Forks][forks-shield]][forks-url])
+[![Contributors][contributors-shield]][contributors-url]
 
-[//]: # ([![Stargazers][stars-shield]][stars-url])
+[![Forks][forks-shield]][forks-url]
 
-[//]: # ([![Issues][issues-shield]][issues-url])
+[![Stargazers][stars-shield]][stars-url]
 
-[//]: # ([![MIT License][license-shield]][license-url])
+[![Issues][issues-shield]][issues-url]
+
+[![CCO-1.0 License][license-shield]][license-url]
 
 <!-- # STRsMiner/TRsMiner -->
 
@@ -49,7 +58,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#Project Instructions">Project Instructions</a></li>
+        <li><a href="#Project-Instructions">Project Instructions</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -255,7 +264,7 @@ According to the above examples, the most important package commands will be as 
    17
    ```
 8. Case 67: for making a fingerprint file based on multi-threading
-and without gene based grouping(one of the files for next analyzing)
+and ***without gene based grouping***(one of the files for next analyzing)
    ```sh
    67
    84
@@ -263,7 +272,7 @@ and without gene based grouping(one of the files for next analyzing)
    1. second line is the number of threads which we want to use by package
    
 9. Case 68: for making a fingerprint file based on multi-threading
-and with gene based grouping(one of the files for next analyzing)
+and ***with gene based grouping***(one of the files for next analyzing)
    ```sh
    68
    80
@@ -304,8 +313,7 @@ and with gene based grouping(one of the files for next analyzing)
 
 This project can be used for creating a database of tandem repeats and analyzing them.
 Using the enhanced query form on the Biomart Ensembl tool along with the
-RESTful API tools, a Java package was developed to retrieve, store, and analyze the data and
-218 information.
+RESTful API tools, a Java package was developed to retrieve, store, and analyze the data and information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -344,7 +352,11 @@ Distributed under the Creative ***Commons Zero v1.0 Universal*** License. See `L
 
 ## Contact
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: https://github.com/your_username/repo_name
+<br/>
+Email : ali.m.a.maddi@gmail.com
+<br/>
+Email : ali.maddi@ut.ac.ir
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -352,7 +364,21 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
+[contributors-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/graphs/contributors
 
-[issues-url]: https://https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/issues
+[issues-shield]: https://img.shields.io/github/issues/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
+[issues-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/issues
 
-[license-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
+[license-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/blob/master/LICENSE.txt
+
+[forks-shield]: https://img.shields.io/github/forks/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
+[forks-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
+[stars-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/stargazers
+
+
+
+

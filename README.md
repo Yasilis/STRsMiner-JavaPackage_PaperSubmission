@@ -302,11 +302,10 @@ and with gene based grouping(one of the files for next analyzing)
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos
-work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+This project can be used for creating a database of tandem repeats and analyzing them.
+Using the enhanced query form on the Biomart Ensembl tool along with the
+RESTful API tools, a Java package was developed to retrieve, store, and analyze the data and
+218 information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -318,16 +317,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
-contributions you make are **greatly appreciated**.
-
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
 simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your Changes (`git commit -am 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
@@ -336,10 +332,9 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Creative ***Commons Zero v1.0 Universal*** License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

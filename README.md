@@ -49,7 +49,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Project instructions">Project instructions</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -84,7 +84,8 @@
 
 ### Built With
 <p align="left">
-This section should list any major frameworks/libraries used to build your project. Here are a few examples.
+You should download and install some frameworks,libraries, and tools to used, build and develop
+the project. Here are a few examples.
 
 * [git](https://git-scm.com/)
 * [java](https://www.java.com/en/)
@@ -120,14 +121,30 @@ The Hibernate ORM is also used in the project. So, you need config "hibernate.cf
 The default driver is "com.mysql.cj.jdbc.Driver" which it belongs to the MySQL database.
 <br/>
 <br/>
-For changing default database you need to change this line of codes with appropriate driver in the "hibernate.cfg.xml" file:
-* clone the project
+For changing default database you need to change this line of codes with appropriate Driver:
+* In the "hibernate.cfg.xml" file 
   ```sh
   <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
   ```
+In the next step you need to introduce your database in the project. It is possible according the following lines of code:
+
+* In the "hibernate.cfg.xml" file
+  ```sh
+  <property name="connection.url">your DB address (jdbc:mysql://localhost:3306/STRsDataBase3?autoReconnect=true&amp;useSSL=false)</property>
+  <property name="connection.username">your dbuser</property>
+  <property name="connection.password">yout dbuserPassword</property>
+  <property name="dialect">yout hibernate dialect  (org.hibernate.dialect.MySQLDialect)</property>
+  ```
+Pay attention that you have to change these settings with appropriate values in local machine. 
+Moreover, You also need to introduce at least one empty database into the "hibernate.cfg.xml" file. 
+There are multiple command in the project for creating tables and filling them.
+<br/>
+Also, you can also use our already prepared database which is accessible in the “figshare” repository, with the identifier “10. 0 /m .figshare.15 052 ” 
+
+After connecting database to the project you can enjoy package by following instructions.
 
 
-### Installation
+### Project instructions
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't
 rely on any external dependencies or services._

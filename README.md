@@ -10,13 +10,9 @@
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
-
 [![Forks][forks-shield]][forks-url]
-
 [![Stargazers][stars-shield]][stars-url]
-
 [![Issues][issues-shield]][issues-url]
-
 [![CCO-1.0 License][license-shield]][license-url]
 
 <!-- # STRsMiner/TRsMiner -->
@@ -352,7 +348,7 @@ Distributed under the Creative ***Commons Zero v1.0 Universal*** License. See `L
 
 ## Contact
 
-Project Link: https://github.com/your_username/repo_name
+Project Link: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission
 <br/>
 Email : ali.m.a.maddi@gmail.com
 <br/>
@@ -371,7 +367,7 @@ Email : ali.maddi@ut.ac.ir
 [issues-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/issues
 
 [license-shield]: https://img.shields.io/github/license/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
-[license-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/blob/master/LICENSE.txt
+[license-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/blob/master/LICENSE
 
 [forks-shield]: https://img.shields.io/github/forks/Yasilis/STRsMiner-JavaPackage_PaperSubmission.svg?style=for-the-badge
 [forks-url]: https://github.com/Yasilis/STRsMiner-JavaPackage_PaperSubmission/network/members
